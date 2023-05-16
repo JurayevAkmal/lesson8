@@ -1,0 +1,270 @@
+*
+
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Quicksand', sans-serif;
+}
+.sayt
+{
+    max-width: 1920px;
+    width: 100%;
+    height: auto;
+
+}
+.header
+{
+    width: 80%;
+    margin: 0 auto;
+}
+.nav
+{
+    margin-top: 25px;
+    width: 100%;
+    display: flex;
+}
+.header .nav  ul
+{
+    display: flex;
+    width: 50%;
+    height: auto;
+    list-style: none;
+    margin-left: 300px;
+}
+.header .nav ul li
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 20%;
+    height: auto;
+
+}
+.header .nav ul li a
+{
+    display: block;
+    text-decoration: none;
+    color: black;
+}
+.header .nav ul li a:hover
+{
+    color: gray;
+}
+.header .hero
+{
+    width: 100%;
+    margin: 0 auto;
+    background-image: url(../img/99ghjhg\ 2.png);
+    background-position: right;
+    background-repeat: no-repeat;
+    padding-top: 80px;
+}
+.header .hero h5
+{
+    font-size: 22px;
+    text-align: center;
+    margin: 80px 0px 30px 0px;
+    
+}
+.header .hero .qwer
+{
+    width: 100%;
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+}
+.header .hero input
+{
+    
+    border: none;
+    width: 384px;
+    height: 80px;
+    background: #FAFAFA;
+}
+.header .hero button
+{
+    width: 384px;
+    height: 80px;
+    background: #1C3D76;
+    border: none;
+    color: #fff;
+}
+.cards
+{
+    width: 80%;
+    height: auto;
+    margin: 85px auto;
+}
+.cards .c1
+{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    height: 50%;
+    margin: 20px 0px;
+}
+.cards .c1 .card1
+{
+    width: 360px;
+    height: 256px;
+    background-color: #eeeeee;
+    background-image: url(../img/01.png);
+    background-repeat: no-repeat;
+    background-position: 30px 30px;
+}
+.cards .card2   
+{
+    width: 360px;
+    height: 256px;
+    background-color: #eeeeee;
+    background-image: url(../img/02.png);
+    background-repeat: no-repeat;
+    background-position: 30px 30px;
+    
+}
+.cards .card3 
+{
+    width: 360px;
+    height: 256px;
+    background-color: #eeeeee;
+    background-image: url(../img/03.png);
+    background-repeat: no-repeat;
+    background-position: 30px 30px;
+    
+}
+.cards .card4
+{
+    width: 360px;
+    height: 256px;
+    background-color: #eeeeee;
+    background-image: url(../img/04.png);
+    background-repeat: no-repeat;
+    background-position: 30px 30px;
+    
+}
+.cards .card5
+{
+    width: 360px;
+    height: 256px;
+    background-color: #eeeeee;
+    background-image: url(../img/05.png);
+    background-repeat: no-repeat;
+    background-position: 30px 30px;
+    
+}
+.cards .card6
+{
+    width: 360px;
+    height: 256px;
+    background-color: #eeeeee;
+    background-image: url(../img/06.png);
+    background-repeat: no-repeat;
+    background-position: 30px 30px;
+    
+}
+.cards .c1  img
+{
+    width: 215px;
+    margin: -22px 0px 0px 164px;
+}
+.cards .c1  p
+{
+    margin-top: 35px;
+    margin-left: 20px;
+}
+.work
+{
+    width: 80%;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 80px;
+}
+.work .w1
+{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    margin-top: 80px;
+
+}
+.work .w1 .card1
+{
+    width: 30%;
+    height: 230px;
+    background-color: #eeeeee;
+    text-align: center;
+    padding: 30px;
+}
+.work .w1 .card1 svg
+{
+    margin-top: -95px;
+    padding:3px 3px;
+    background-color: #fff;
+    border-radius: 50%;
+}
+.work .w2
+{
+    display: flex;
+    justify-content:space-evenly;
+    width: 100%;
+    margin-top: 80px;
+    color: #1C3D76    ;
+
+}
+.work .w2 .card1
+{
+    width: 30%;
+    height: 230px;
+    background-color: #fff;
+    text-align: center;
+    padding: 30px;
+}
+.work .w2 .card1 svg
+{
+    margin-top: -95px;
+    padding:3px 3px;
+    background-color: #fff;
+    border-radius: 50%;
+}
+.price
+{
+    width: 80%;
+    margin:0 auto;
+    text-align: center;
+}
+.price h3
+{
+    margin: 60px 0px 30px 0px;
+}
+.price p
+{
+    width: 80%;
+    margin: 0 auto;
+    
+}
+.price .cards 
+{
+    width: 100%;
+}
+.price .cards .card1
+{
+    width: 30%;
+    height: 384px;
+    background-color: #eeeeee;
+    text-align: center;
+    padding: 1px;
+}
+.price .cards .card1 p
+{
+    margin-top: 30px;
+}
+.price .cards .card1 button
+{
+    width: 275px;
+    height: 56px;
+    border: none;
+    background-color: white;
+    color: #1C3D76    ;
+    margin-top: 40px;
+}
